@@ -1,0 +1,35 @@
+/* Adicione este bloco ao seu arquivo styles.css */
+
+header, nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente */
+    color: #fff;
+}
+
+header {
+    padding: 20px 0;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
