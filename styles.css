@@ -1,35 +1,34 @@
-/* Adicione este bloco ao seu arquivo styles.css */
-
-header, nav {
-    background-color: rgba(0, 0, 0, 0.8); /* Fundo semitransparente */
-    color: #fff;
-}
-
+/* Estilo para o cabeçalho (header) */
 header {
-    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+    padding: 20px;
 }
 
+/* Estilo para a navegação (nav) */
 nav {
-    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semitransparente */
+    padding: 10px;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
-main a {
-    color: #007BFF;
+nav a {
     text-decoration: none;
-    font-weight: bold;
+    color: white; /* Cor do texto branco */
 }
 
-main a:hover {
-    text-decoration: underline;
+/* Estilo para o rodapé (footer) */
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto semitransparente */
+    padding: 10px;
+    color: white; /* Cor do texto branco */
 }
