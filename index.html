@@ -2,48 +2,70 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorando Tecnologias | TechHub</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Descrição do seu site com palavras-chave relevantes.">
+    <meta name="keywords" content="palavra-chave1, palavra-chave2, palavra-chave3">
+    <title>Seu Título Aqui - Nome do Site</title>
+
+    <!-- Adicione links para os seus arquivos CSS aqui -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Se você usar fontes externas, adicione-as aqui -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sua+Fonte">
+
+    <!-- Adicione links para seus arquivos JavaScript aqui, se necessário -->
+    <!-- <script src="seu_script.js"></script> -->
 </head>
 <body>
 
+    <!-- Seu conteúdo aqui -->
+
     <header>
-        <div class="container">
-            <h1><a href="#">TechHub</a></h1>
-            <p>Sua fonte confiável para as últimas novidades em tecnologia.</p>
-        </div>
+        <h1>Seu Título Principal</h1>
+        <p>Subtítulo ou descrição breve.</p>
     </header>
 
-    <nav class="menu-semi-transparente">
-        <div class="container">
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Artigos</a></li>
-                <li><a href="#">Tendências</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </div>
+    <nav>
+        <!-- Seu menu de navegação aqui -->
+        <ul>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
     </nav>
 
     <main>
-        <section class="destaque">
-            <div class="container">
-                <h2>Explorando as Últimas Tecnologias</h2>
-                <p>Descubra <a href="#">artigos</a>, <a href="#">análises</a> e <a href="#">tendências</a> sobre inteligência artificial, blockchain, realidade aumentada e mais.</p>
-            </div>
-        </section>
+        <!-- Seu conteúdo principal aqui -->
+        <article>
+            <h2>Seu Título de Artigo</h2>
+            <p>Conteúdo do artigo aqui.</p>
+        </article>
 
-        <!-- Outras seções e conteúdo podem ser adicionados aqui -->
+        <!-- Adicione mais artigos, se necessário -->
 
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2023 TechHub. Todos os direitos reservados.</p>
-        </div>
+        <!-- Seu rodapé aqui -->
+        <p>&copy; 2023 Seu Site. Todos os direitos reservados.</p>
     </footer>
+<script>
+    // Efeito para tornar a navegação semitransparente ao rolar a página
+    window.onscroll = function () {
+        var header = document.querySelector("header");
+        var nav = document.querySelector("nav");
 
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            header.style.background = "rgba(255, 255, 255, 0.5)";
+            nav.style.background = "rgba(0, 0, 0, 0.7)";
+        } else {
+            header.style.background = "rgba(255, 255, 255, 0.8)";
+            nav.style.background = "rgba(0, 0, 0, 0.5)";
+        }
+    };
+</script>
+
+    
 </body>
 </html>
